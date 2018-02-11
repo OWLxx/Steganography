@@ -1,0 +1,19 @@
+# -------------------------
+# Ensemble classification
+# cover : coversKB_features.mat
+# stego : stego010KB_features.mat
+# trn/tst ratio : 0.5000
+# L : automatic (min 25, length 50, eps 0.00500)
+# d_sub : automatic (Eoob tolerance 0.0200, step 200)
+# seed 1 (trn/tst) : 8
+# seed 2 (subspaces) : 810089798
+# seed 3 (bootstrap) : 817823694
+# bootstrap : yes
+# -------------------------
+ - d_sub 42 : OOB 0.4990 : L 212 : T 1.1 sec
+ - d_sub 84 : OOB 0.5040 : L 144 : T 1.1 sec
+ - d_sub 126 : OOB 0.5000 : L 219 : T 2.3 sec
+ - d_sub 21 : OOB 0.4900 : L 243 : T 1.0 sec
+ - d_sub 63 : OOB 0.4890 : L 411 : T 2.8 sec
+training time: 8.5 sec
+optimal d_sub 63 : OOB 0.4890 : TST 0.4900 : L 411 : T 8.6 sec
